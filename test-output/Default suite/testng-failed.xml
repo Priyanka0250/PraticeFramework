@@ -5,9 +5,10 @@
     <classes>
       <class name="E2EProject.ValidateTitle">
         <methods>
+          <include name="validate"/>
           <include name="initialize"/>
+          <include name="Header"/>
           <include name="close_browser"/>
-          <include name="HeaderLinks"/>
         </methods>
       </class> <!-- E2EProject.ValidateTitle -->
     </classes>

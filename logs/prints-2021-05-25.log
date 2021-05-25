@@ -1,0 +1,8 @@
+23:01:49.984 [main] INFO  Resources.Base - Search Text is captured
+23:01:49.996 [main] INFO  Resources.Base - Search text Assertion done
+23:18:38.623 [main] INFO  Resources.Base - Driver is initialized
+23:18:47.748 [main] INFO  Resources.Base - Page is Opened
+23:18:48.456 [main] INFO  Resources.Base - Driver is Closed
+23:19:40.718 [main] INFO  Resources.Base - Driver is initialized
+23:19:48.923 [main] INFO  Resources.Base - Page is Opened
+23:19:50.167 [main] INFO  Resources.Base - Headerlinks hit successfully

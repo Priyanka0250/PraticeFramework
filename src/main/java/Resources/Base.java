@@ -25,14 +25,14 @@ public class Base {
 	{
 		
 	    prop=new Properties();
-		FileInputStream fis=new FileInputStream("../LetsKodeIt_E2E/src/main/java/Resources/Data.properties");
+		FileInputStream fis=new FileInputStream("C:\\Users\\priya\\git\\Practice_Repository\\PraticeFramework\\src\\main\\java\\Resources\\Data.properties");
 		prop.load(fis);
 		
 		String browserName=prop.getProperty("browser");
 		
 		if(browserName.equalsIgnoreCase("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "../LetsKodeIt_E2E/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\priya\\git\\Practice_Repository\\PraticeFramework\\chromedriver.exe");
 			driver=new ChromeDriver();		
 		}
 		

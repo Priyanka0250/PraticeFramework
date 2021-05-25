@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -40,7 +41,7 @@ public class ValidateTitle extends Base{
 	{
 	
 	LandingPage lp=new LandingPage(driver);
-	ScreenshotCapture.takeScreenshot(driver, "../LetsKodeIt_E2E/TC2_Search_text.png");
+	ScreenshotCapture.takeScreenshot(driver, "C:\\Users\\priya\\git\\Practice_Repository\\PraticeFramework\\TC2_Search_text.png");
 	String SearchText=lp.SearchCourse().getText();
 	log.info("Search Text is captured");
 	Assert.assertEquals("Search for a course", SearchText);
@@ -55,27 +56,19 @@ public class ValidateTitle extends Base{
 
 	LandingPage lp=new LandingPage(driver);
 	Assert.assertTrue(lp.Header().isDisplayed());
-	ScreenshotCapture.takeScreenshot(driver, "../LetsKodeIt_E2E/TC3_Header.png");
+	ScreenshotCapture.takeScreenshot(driver, "C:\\Users\\priya\\git\\Practice_Repository\\PraticeFramework\\TC3_Header.png");
 	log.info("Header Assertion is done");
 	
 	}
 	
 	
 	@Test
-	public void HeaderLinks()
+	public void HeaderLinks_Click() throws IOException
 	{
 		LandingPage lp=new LandingPage(driver);
-		lp.Header_links();
-		
-		int header_count=lp.Header_links_Count().size();
-		Assert.assertEquals(header_count, 4);
-		
-		for(int i=0;i<=header_count-1;i++)
-		{
-			String clickonLinkTab=Keys.chord(Keys.CONTROL,Keys.ENTER);
-			lp.Header_links_Count().get(i).sendKeys(clickonLinkTab);		
-		}
-		
+		lp.HeaderLinks_Click();
+		ScreenshotCapture.takeScreenshot(driver, "C:\\Users\\priya\\git\\Practice_Repository\\PraticeFramework\\TC4_HeaderLinks.png");
+		log.info("Headerlinks hit successfully");		
 	}
 	
 
