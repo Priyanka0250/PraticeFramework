@@ -1,0 +1,8 @@
+23:46:04.788 [TestNG] INFO  Resources.Base - Navigated to Homepage
+23:46:08.986 [TestNG] INFO  Resources.Base - Username is Entered
+23:46:09.101 [TestNG] INFO  Resources.Base - Password is Entered
+23:46:10.039 [TestNG] INFO  Resources.Base - Login Credentials Submitted
+23:46:10.150 [TestNG] INFO  Resources.Base - Header Assertion is done
+23:46:10.211 [TestNG] INFO  Resources.Base - Search Text is captured
+23:46:10.212 [TestNG] INFO  Resources.Base - Search text Assertion done
+23:46:10.370 [TestNG] INFO  Resources.Base - Driver is Closed

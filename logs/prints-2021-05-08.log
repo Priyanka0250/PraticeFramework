@@ -1,0 +1,8 @@
+17:28:17.761 [main] INFO  Resources.Base - Password is Entered
+17:28:56.348 [main] INFO  Resources.Base - Login Credentials Submitted
+17:28:57.642 [main] INFO  Resources.Base - Driver is initialized
+17:29:02.334 [main] INFO  Resources.Base - Navigated to Homepage
+17:29:07.118 [main] INFO  Resources.Base - Username is Entered
+17:29:07.177 [main] INFO  Resources.Base - Password is Entered
+17:29:08.329 [main] INFO  Resources.Base - Login Credentials Submitted
+17:29:08.889 [main] INFO  Resources.Base - Header Assertion is done

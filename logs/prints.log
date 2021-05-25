@@ -1,0 +1,6 @@
+22:48:53.484 [main] INFO  Resources.Base - Driver is initialized
+22:48:59.149 [main] INFO  Resources.Base - Page is Opened
+22:49:00.398 [main] INFO  Resources.Base - Header Assertion is done
+22:49:00.903 [main] INFO  Resources.Base - Search Text is captured
+22:49:00.903 [main] INFO  Resources.Base - Search text Assertion done
+22:49:01.091 [main] INFO  Resources.Base - Driver is Closed
