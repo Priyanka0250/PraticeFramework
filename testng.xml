@@ -7,8 +7,8 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="E2EProject.HomePage"/>  
-      <class name="E2EProject.ValidateTitle"/>
+      <class name="E2EProject.Login_TestScripts"/>
+      <class name="E2EProject.Landing_Page_TestScripts"/>
     </classes>
   </test> <!-- Test -->   
 </suite> <!-- Suite -->

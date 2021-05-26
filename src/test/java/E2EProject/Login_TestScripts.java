@@ -17,7 +17,7 @@ import pageObjects.LandingPage;
 import pageObjects.LoginPage;
 
 
-public class HomePage extends Base{
+public class Login_TestScripts extends Base{
 
     public WebDriver driver;
 	public static Logger log=LogManager.getLogger(Base.class.getName());
@@ -40,10 +40,10 @@ public class HomePage extends Base{
 		log.info("Username is Entered");
 		Lo.Password().sendKeys(password);
 		log.info("Password is Entered");
-		ScreenshotCapture.takeScreenshot(driver, "../LetsKodeIt_E2E/TC1_Login_credentials_Entered.png");
+		ScreenshotCapture.takeScreenshot(driver, "C:\\Users\\priya\\git\\Practice_Repository\\PraticeFramework\\TC1_Login_credentials_Entered.png");
 		Lo.Submit().click();
 		log.info("Login Credentials Submitted");
-		ScreenshotCapture.takeScreenshot(driver, "../LetsKodeIt_E2E/TC1_Login_done.png");
+		ScreenshotCapture.takeScreenshot(driver, "C:\\Users\\priya\\git\\Practice_Repository\\PraticeFramework\\TC1_Login_done.png");
 	}
 		
 	@DataProvider
